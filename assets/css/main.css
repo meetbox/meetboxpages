@@ -206,7 +206,6 @@ a:before, a:after {
 
 section {
 	height: 95vh;
-	background: gray;
 	text-align: center;
 	display: flex;
   	align-items: center;
@@ -275,14 +274,29 @@ h2 {
 
 /*splash*/
 
+.splash h2 {
+	color: #C75DCB;
+}
+
 .splash img.illustration {
 	width: 35vw;
 	margin-bottom: 5vmin;
+	-webkit-animation-delay: 1s;
 }
 
 .splash img.logotype {
 	width: 12.5vw;
 	margin-bottom: 2.5vmin;
+}
+
+.splash .box {
+	position: absolute;
+	z-index: 100;
+	width: 35vw;
+}
+
+.last-in {
+	-webkit-animation-delay: 2.5s;
 }
 
 /*potential*/
@@ -301,6 +315,31 @@ h2 {
 .wrapper  {
 	margin-bottom: 3.75vmin;
 }
+
+/*nohassle*/
+
+.nohassle img.illustration {
+	width: 24vw;
+	margin-bottom: 3.5vmin;
+	margin-top: 2vmin;
+}
+
+/*connect*/
+
+section.connect {
+	background: url(../img/connect.jpg) #2F343C;
+	background-size: cover;
+}
+
+/*whatdo*/
+
+section.whatdo {
+	background: url(../img/hand.jpg);
+	background-repeat: no-repeat;
+	background-position: 90% 100%;
+	background-size: 30vmin;
+}
+
 
 /* ==========================================================================
    MEDIA QUERIES
