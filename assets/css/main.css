@@ -319,13 +319,3 @@ body .header {
 	background-attachment: scroll;
 }
 }
-
-@media screen and (max-width:769px) {
-#headerwrap h1 {
-	font-size: 80px;
-}
-#headerwrap p {
-	font-size: 30px;
-	line-height: 38px;
-}
-}
