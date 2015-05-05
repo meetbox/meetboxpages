@@ -230,6 +230,7 @@ a:before, a:after {
 	text-align: center;
 	letter-spacing: 3px;
 }
+
 #headerwrap p {
 	color: #000;
 	font-size: 15px;
@@ -246,6 +247,12 @@ a:before, a:after {
 	text-align: center;
 	letter-spacing: 1px;
 }
+
+/*#headerwrap .mc_embed_signup {
+	background-position: center;
+	font:14px Helvetica,Arial,sans-serif;
+	width:250px;
+}*/
 
 #headerwrap .icon {
 	color: #ffffff;
