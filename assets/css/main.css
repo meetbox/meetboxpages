@@ -275,9 +275,15 @@ a:before, a:after {
 	padding: 60px 0;
 	height: 100%;
 }
-#about img {
-	margin-top: 65px;
+
+#about h3{
+	text-align: center;
+	padding: 30px 0;
+
 }
+/* #about img {
+	margin-top: 65px;
+}*/
 #services {
 	background: #f5f5f5;
 	padding: 60px 0;
@@ -327,30 +333,7 @@ a:before, a:after {
 #portfolio .btn-default {
 	border: 0;
 }
-#contact {
-	background: #fff;
-	padding: 60px 0;
-	text-align: center;
-	height: 100%;
-}
-#contact .form {
-	padding: 30px 0;
-}
-#contact .fa {
-	color: #ffbf00;
-	margin-bottom: 10px;
-}
-#contact .btn {
-	font-weight: 500;
-	font-size: 18px;
-	margin-top: 50px;
-	background-color: #ffbf00;
-	color: #fff;
-	border: 0;
-}
-#contact .btn:hover, #contact .btn:focus {
-	background-color: #e9af03;
-	outline: 0px;
+
 }
 #greywrap {
 	background: #f5f5f5;
