@@ -40,12 +40,12 @@
       <li>Get recognized just by walking into a room ✓</li>
     </ul>
 
-    <form class="form-inline animated last-in fadeIn">
+    <form class="form-inline animated last-in fadeIn" id="form-top">
         <div class="form-group">
             <label class="sr-only" for="inputEmail">Email</label>
-            <input type="email" class="form-control input-lg" placeholder="Email" type="email" value="" name="EMAIL" required>
+            <input class="form-control input-lg" placeholder="Email" type="email" name="EMAIL" required>
         </div>
-        <button type="submit" value="Subscribe" name="subscribe" class="btn btn-primary btn-lg" onclick="ga('send', 'event', 'button', 'click', 'subscribe');">Notify me when shipping starts</button>
+        <button type="submit" name="subscribe" class="btn btn-primary btn-lg">Notify me when shipping starts</button>
     </form>
 
   </div>
@@ -96,12 +96,12 @@
           <p>Order boxes to your remote offices and everyone can get it up and running</p>
         </div>
 
-     <form class="form-inline animated last-in fadeIn">
+     <form class="form-inline animated last-in fadeIn" id="form-bottom">
         <div class="form-group">
             <label class="sr-only" for="inputEmail">Email</label>
-            <input type="email" class="form-control input-lg" placeholder="Email" type="email" value="" name="EMAIL" required>
+            <input class="form-control input-lg" placeholder="Email" type="email" name="EMAIL" required>
         </div>
-        <button type="submit" value="Subscribe" name="subscribe" class="btn btn-primary btn-lg" onclick="ga('send', 'event', 'button', 'click', 'subscribe');">Notify me when shipping starts</button>
+        <button type="submit" name="subscribe" class="btn btn-primary btn-lg">Notify me when shipping starts</button>
     </form>
   </div>
 </section>
@@ -117,6 +117,17 @@
 
 <script type="text/javascript">
 var s = skrollr.init();
+
+var submitAction = function() {
+  ga('send', 'event', 'form', 'submit', 'subscribe');
+};
+
+var formTop = document.getElementById('form-top');
+formTop.addEventListener('submit', submitAction);
+
+var formBottom = document.getElementById('form-bottom');
+formBottom.addEventListener('submit', submitAction);
+
 </script>
 
 
