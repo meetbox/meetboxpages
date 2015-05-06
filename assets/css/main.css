@@ -281,7 +281,7 @@ h2 {
 .splash img.illustration {
 	width: 35vw;
 	margin-bottom: 5vmin;
-	-webkit-animation-delay: 1s;
+	-webkit-animation-delay: .5s;
 }
 
 .splash img.logotype {
@@ -296,7 +296,7 @@ h2 {
 }
 
 .last-in {
-	-webkit-animation-delay: 2.5s;
+	-webkit-animation-delay: 1.5s;
 }
 
 /*potential*/
